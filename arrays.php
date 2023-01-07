@@ -12,8 +12,33 @@ echo "<br>";
 $color=[
     1 => "blue",
     2 => "indigo",
-    3 => "magenta";
+    3 => "magenta",
 ];
 echo $color[1];
+echo "<br>";
 //associative arrays
+$person1=[
+    'first_name'=>'Sam',
+    'last_name'=>'Mash',
+    'e_mail'=>'sammymwangi@gmail.com'
+];
+$people=[
+    $person=[
+        'first_name'=>'Samwel',
+        'last_name'=>'Mwangi',
+        'e_mail'=>'samuelmacharia879@gmail.com'
+    ],
+
+    [
+    'first_name'=>'Lydia',
+    'last_name'=>'Macharia',
+    'e_mail'=>'samuelmwangi879@gmail.com'
+],
+
+];
+print_r(json_encode($people));//json makes the output readable
+echo "<br>";
+$person=["Kelcy"];
+$kelcy=[20,126];
+var_dump("my name is $person[0],I'm $kelcy[0] old and $kelcy[1] cm tall");
 ?>
