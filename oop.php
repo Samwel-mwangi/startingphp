@@ -1,7 +1,5 @@
 <?php
 class User{
-
-
 private $name;
 public $email;
 public $password;
@@ -26,7 +24,7 @@ function login(){
 }
 //Destructor is called when an object is destroyed
 function __destruct(){
-    echo "The username is $this->name.";
+    echo "The username is $this->name." . "<br>";
 }
 
 }
